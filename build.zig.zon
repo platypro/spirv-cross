@@ -1,6 +1,8 @@
 .{
-    .name = "spirv-cross",
+    .name = .spirv_cross,
     .version = "0.1.0",
+    .minimum_zig_version = "0.14.0",
+    .fingerprint = 0x7ea1d830cbe1db4,
     .paths = .{
         "GLSL.std.450.h",
         "spirv_cfg.cpp",
